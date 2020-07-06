@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 app.get('/login', (req, res) => {
-    res.render('/sdflogin');
+    res.render('login');
 
 });
 app.get('/register', (req, res) => {
